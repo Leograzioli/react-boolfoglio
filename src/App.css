@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  padding: 1.5rem 2rem;
+  background-color: rgba(0, 0, 0, 0.699);
+}
+
+.nav-bar a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none; 
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
