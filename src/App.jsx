@@ -4,7 +4,7 @@ import { Routes, Link, Route, BrowserRouter } from 'react-router-dom'
 // pages 
 import Home from './pages/Home'
 import About from './pages/About'
-import Project from './pages/Project'
+import SingleProject from './pages/SingleProject'
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/project/:slug' element={<Project />} />
+          <Route path='/project/:slug' element={<SingleProject />} />
         </Routes>
 
       </BrowserRouter>
